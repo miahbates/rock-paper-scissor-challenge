@@ -5,9 +5,26 @@
  *    e.g. `game("paper", "rock")` returns "player"
  */
 function game(playerChoice, computerChoice) {
-  // your code goes here
+  // if the playerChoice and computer are the same that is a draw
+  if (playerChoice === computerChoice) {
+    return "Draw!";
+  } else if (
+    (playerChoice === "rock" && computerChoice === "paper") ||
+    (playerChoice === "scissors" && computerChoice === "rock") ||
+    (playerChoice === "paper" && computerChoice === "scissors")
+  ) {
+    return "Computer wins!";
+  } else {
+    return "Player wins!";
+  }
+  // if player has rock and computer has paper - player loses
+  // if plater has rock and computer has scissors - player wins
+  // if player has scissors and computer has paper - player win
+  // if player has scissors and computer has rock - player loses
+  // if player has paper and computer has rock - player wins
+  // if player has paper and computer has scissors - player loses
 }
-
+console.log(game("paper", "paper"));
 /**
  * 2. This function should pick the computer's choice
  *    It should randomly return "rock", "paper" or "scissors"
