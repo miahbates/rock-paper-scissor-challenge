@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rock, Paper, Scissors</title>
+    <style>
+      body {
+        max-width: 50ch;
+        margin: 0 auto;
+        padding: 2rem;
+        font-family: system-ui, sans-serif;
+        color-scheme: light dark;
+      }
+      label {
+        display: block;
+        margin-top: 0.5rem;
+      }
+      output {
+        display: block;
+        margin-top: 1.5rem;
+        font-size: 2rem;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors</h1>
+
+    <form>
+      <fieldset>
+        <legend>Your choice</legend>
+
+        <label for="rock">
+          <input type="radio" id="rock" value="rock" name="choice" />
+          <span>🗿 Rock</span>
+        </label>
+
+        <label for="paper">
+          <input type="radio" id="paper" value="paper" name="choice" />
+          <span>🧻 Paper</span>
+        </label>
+
+        <label for="scissors">
+          <input type="radio" id="scissors" value="scissors" name="choice" />
+          <span>✂️ Scissors</span>
+        </label>
+      </fieldset>
+
+      <!-- Use JS to put the result of each round here -->
+      <output></output>
+    </form>
+
+    <script src="game.js"></script>
+  </body>
+</html>
