@@ -39,7 +39,6 @@ function randomChoice() {
     return "rock"
     }
   }
- 
   // generate random number 
   // if 1 - scissor
   // if 2 - rock
@@ -47,8 +46,30 @@ function randomChoice() {
 
 console.log(randomChoice());
 
+const form = document.querySelector(".rps-radio");
+const input = document.querySelectorAll('input');
+
+// console.dir(input);
+
+form.addEventListener("input", (event) => {
+   let answer = event.target.value;
+   let computerChoice = randomChoice();
+   let stringAns = (game(answer, computerChoice));
+  //  console.dir(output);
+   return document.querySelector("output").innerHTML = stringAns;
+  //  document.documentElement.innerHTML = "<pre>" +
+  //        document.documentElement.innerHTML.replace(/</g,"&lt;") +
+  //           "</pre>";
+})
+
+
+// console.dir(form);
+
+
+
 /**
- * 3. a) Listen for the "input" event on the <form>.
+ * 
+ * 3. a) Listen for the "input" event on the <form>. 
  *       This triggers whenever the user changes the value of an input.
  *    b) Get the value of the input the event targetted.
  *       E.g. for <input type="radio" value="rock"> this will be "rock"
