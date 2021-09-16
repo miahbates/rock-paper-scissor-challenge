@@ -30,8 +30,22 @@ console.log(game("paper", "paper"));
  *    It should randomly return "rock", "paper" or "scissors"
  */
 function randomChoice() {
-  // your code goes here
-}
+  let randomNumber = Math.floor((Math.random() * 3))
+  if (randomNumber === 0) {
+    return "paper";
+  } else if (randomNumber === 1) {
+    return "scissors";
+  } else {
+    return "rock"
+    }
+  }
+ 
+  // generate random number 
+  // if 1 - scissor
+  // if 2 - rock
+  // if 0 - paper
+
+console.log(randomChoice());
 
 /**
  * 3. a) Listen for the "input" event on the <form>.
