@@ -17,3 +17,8 @@ This repo contains a template for building a rock, paper, scissors game using HT
 * Displays computers choice and who won.
 
 ## Learning: 🌱
+* Basic DOM manipulation.
+* Using event listeners.
+* Grabbing elements from the html using querySelector.
+* If and else statements to handle logic.
+* Using math.random() and math.Floor() to 
