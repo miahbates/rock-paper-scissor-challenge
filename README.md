@@ -12,11 +12,11 @@ This repo contains a template for building a rock, paper, scissors game using HT
 1. Open the folder in your text editor (if you use VS Code you can do this with `code .` in your terminal)
 1. Follow the comments in the JS to fill in the missing functionality
 
-## Features: 🌟
+## Features 🌟
 * User inputs rock, paper scissors.
 * Displays computers choice and who won.
 
-## Learning: 🌱
+## Learning 🌱
 * Basic DOM manipulation.
 * Using event listeners.
 * Grabbing elements from the html using querySelector.
