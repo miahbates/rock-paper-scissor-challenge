@@ -21,4 +21,4 @@ This repo contains a template for building a rock, paper, scissors game using HT
 * Using event listeners.
 * Grabbing elements from the html using querySelector.
 * If and else statements to handle logic.
-* Using math.random() and math.Floor() to 
+* Using math.random() and math.Floor() to generate a random number. 
