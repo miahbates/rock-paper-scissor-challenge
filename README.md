@@ -13,7 +13,7 @@ This repo contains a template for building a rock, paper, scissors game using HT
 1. Follow the comments in the JS to fill in the missing functionality
 
 ## Features: 🌟
-User inputs rock, paper scissors.
-Displays computers choice and who won.
+* User inputs rock, paper scissors.
+* Displays computers choice and who won.
 
 ## Learning: 🌱
