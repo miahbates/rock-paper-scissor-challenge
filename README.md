@@ -4,7 +4,7 @@
 
 *Co-authored with [Juliette](https://github.com/julietteorpen)*
 
-This repo contains a template for building a rock, paper, scissors game using HTML, CSS and JS. Practice using web browser DOM methods to interact with the web page.
+This repository contains a template for building a rock, paper, scissors game using HTML, CSS and JS. Practice using web browser DOM methods to interact with the web page.
 
 ## Getting started
 1. Clone this repo from GitHub
